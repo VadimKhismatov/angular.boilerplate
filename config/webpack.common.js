@@ -98,7 +98,10 @@ module.exports = {
                 include: helpers.root("src", "app"),
                 use: [
                     {
-                        loader: "raw-loader"
+                        loader: "to-string-loader"
+                    },
+                    {
+                        loader: "css-loader"
                     },
                     {
                         loader: "postcss-loader",

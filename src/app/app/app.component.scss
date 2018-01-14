@@ -1,6 +1,7 @@
 h1{
     display: flex;
     color: red;
+    background-image: url("../../img/sprite.png");
     & span{
         color: blue;
     }
